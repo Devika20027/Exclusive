@@ -5,7 +5,6 @@ function Categories({ onCategoryClick }) {
   return (
     <div className='mt-[40px]'>
       <div className='wrapper'>
-        {/* Title Section */}
         <div className='flex items-center gap-[16px] pb-[20px]'>
           <div className='w-[20px] h-[40px] rounded bg-[#DB4444]'></div>
           <h3 className='font-poppinSemi text-[16px] text-[#DB4444]'>Categories</h3>
@@ -14,8 +13,6 @@ function Categories({ onCategoryClick }) {
         <div className='mb-[25px]'>
           <span className='font-interSemi text-[36px] font-semibold tracking-wider mb-[10px]'>Browse By Category</span>
         </div>
-
-        {/* Categories Section */}
         <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-[30px]'>
           {data.map((item, index) => (
             <div key={index} onClick={() => onCategoryClick(item.category)}>
