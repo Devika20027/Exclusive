@@ -1,0 +1,32 @@
+[
+    {
+      "id":0,
+      "img":"/assets/images/Category-CellPhone.png",
+      "category":"Phones"
+    },
+    {
+      "id":1,
+      "img":"/assets/images/Category-Computer.png",
+      "category":"Computers"
+    },
+    {
+      "id":2,
+      "img":"/assets/images/Category-SmartWatch.png",
+      "category":"SmartWatch"
+    },
+    {
+      "id":3,
+      "img":"/assets/images/Category-Headphone.png",
+      "category":"HeadPhones"
+    },
+    {
+      "id":4,
+      "img":"/assets/images/Category-Gamepad.png",
+      "category":"Gaming"
+    },
+    {
+      "id":5,
+      "img":"/assets/images/Category-Camera.png",
+      "category":"Camera"
+    }
+]
